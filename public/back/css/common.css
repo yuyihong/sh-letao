@@ -12,6 +12,9 @@ ul {
   list-style: none;
 }
 
+.red {
+  color: #A94442;
+}
 
 .body_bg {
   background-color:#222D32;
@@ -33,6 +36,11 @@ ul {
   left: 0;
   top: 0;
   background-color: #222D32;
+  z-index: 999;
+  transition: all 1s;
+}
+.lt_aside.hidemenu {
+  left: -180px;
 }
 .lt_aside .brand{
   height: 50px;
@@ -91,6 +99,13 @@ ul {
   padding-left:180px;
   background-color:pink;
   padding-top: 50px;
+  transition: all 1s;
+}
+.lt_main.hidemenu {
+  padding-left: 0px;
+}
+.lt_main.hidemenu {
+  padding-left:0;
 }
 .lt_topbar {
   height: 50px;
@@ -100,6 +115,10 @@ ul {
   left: 0;
   top: 0;
   padding-left:180px;
+  transition: all 1s;
+}
+.lt_topbar.hidemenu {
+  padding-left: 0px;
 }
 .lt_topbar .icon_menu,
 .lt_topbar .icon_logout {
