@@ -1,0 +1,29 @@
+.body_bg {
+  background-color:#222D32;
+}
+.panel .panel-heading {
+  height: 50px;
+  line-height:50px;
+  font-size:20px;
+  padding: 0;
+}
+.mt_150 {
+  margin-top:150px;
+}
+/*乐淘侧边栏*/
+.lt_aside {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #222D32;
+}
+.lt_aside .brand{
+  height: 50px;
+  line-height:50px;
+  background-color: #367FA9;
+}
+.lt_aside .brand a {
+  color: #fff;
+}
