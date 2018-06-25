@@ -1,3 +1,18 @@
+/*重置默认样式*/
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
 .body_bg {
   background-color:#222D32;
 }
@@ -23,7 +38,49 @@
   height: 50px;
   line-height:50px;
   background-color: #367FA9;
+  text-align: center;
 }
 .lt_aside .brand a {
   color: #fff;
+  font-size:25px;
 }
+.lt_aside .user {
+  padding-top: 30px;
+  height: 180px;
+}
+.lt_aside .user img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.lt_aside .user p {
+  height: 40px;
+  line-height:40px;
+  font-size: 20px;
+  color: #fff;
+  /*background-color:red;*/
+  text-align: center;
+}
+.lt_aside .nav a {
+  display: block;
+  height: 40px;
+  line-height:40px;
+  width: 100%;
+  color: #fff;
+  padding-left: 40px;
+  border-left: 3px solid transparent;
+}
+.lt_aside .nav a.current {
+  background-color:#1D1F21;
+  border-left:3px solid #006699;
+  /*class="current"现在还没效果是因为还没有进行跳转*/
+}
+.lt_aside .nav i {
+  margin-right: 5px;
+}
+.lt_aside .nav .child  a {
+  padding-left: 60px;
+}
+
