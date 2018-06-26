@@ -139,5 +139,16 @@ ul {
   height: 400px;
 }
 
+/*让所有的th,td水平垂直居中*/
+/*.lt_content th,*/
+/*.lt_content td {*/
+  /*text-align: center;*/
+  /*vertical-align: center;*/
+/*}会出现层级问题,因为权重不够*/
 
+.table.table-bordered th,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
+}
 
